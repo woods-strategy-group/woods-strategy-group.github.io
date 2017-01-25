@@ -6,12 +6,24 @@ html, body {
 }
 
 body {
-  background-color: white;  
+  background-color: white;
 }
 
-a:link {
+a:link, a:visited, a:hover, a:active {
+  font-weight: 200;
+}
+
+a:link, a:visited {
   text-decoration: none;
-  color: black;
+  color: #777;
+}
+
+a:hover {
+  color: #999;
+}
+
+a:active {
+  color: #333;
 }
 
 .container {
@@ -34,8 +46,10 @@ a:link {
 .logo {
   display: block;
   width: 300px;
-  height: 300px;
-  background-color: black;
-  
-  margin-bottom: 20px;
+  height: 466px;
+  background-size: 300px 466px;
+  background-image: url("woods_logo_600.png");
+  background-repeat: none;
+
+  margin-bottom: -15px;
 }
